@@ -1,0 +1,9 @@
+{%set a = 1 %}
+
+        {% for home in collections.listing %}
+        {% if home.data.id === 2 %}
+        <h1>{{ home.data.location }}</h1>
+           <h2>{{a}}</h2>
+             {% endif %}
+              {% endfor %}
+
