@@ -1,0 +1,23 @@
+backend:
+ name: git-gateway
+ branch: master 
+ media_folder: "src/images/uploads"
+ public_folder: "images/uploads"
+ collections:
+ - name: "inventory"
+   label: "Inventory"
+   folder: "src/inventory"
+   create: true
+   slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+   fields: 
+     - { label: "Purpose", name: "purpose", widget: "string" }
+     - { label: "Covered Area", name: "coveredArea", widget: "number" }
+     - { label: "Unit", name: "unit", widget: "string" }
+     - { label: "Price", name: "price", widget: "string" }
+     - { label: "Bedrooms", name: "bedrooms", widget: "number" }
+     - { label: "Tags", name: "tags", widget: "list", default: ["listing"] }
+     - { label: "Baths", name: "baths", widget: "number" }
+     - { label: "Unit", name: "unit", widget: "string" }
+     - { label: "Image", name: "image", widget: "image"  }
+     - { label:  "Location", name: "location", widget: "string" }
+     - { label: "Description", name: "description", widget: "markdown" }

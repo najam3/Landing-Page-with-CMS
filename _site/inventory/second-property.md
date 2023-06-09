@@ -1,7 +1,7 @@
 ---
 
 coveredArea: 1000
-unit: square yards
+unit: sq.yd
 location: Khyaban e Khalid Phase 8
 bedrooms: 5
 baths: 7
@@ -10,5 +10,6 @@ price: PKR 9.75 Crore
 image: /images/homes/1000-1.jpg
 imageAlt: property-listing
 description: Well maintained Bungalow with Kids playroom, RO plant installed, 2 separate electric meters.
-
+id: 2
+tags: listing
 ---
