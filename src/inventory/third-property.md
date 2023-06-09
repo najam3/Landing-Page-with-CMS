@@ -10,5 +10,5 @@ price: PKR 9.75 Crore
 imageAlt: property-listing
 description: Well maintained Bungalow with Kids playroom, RO plant installed, 2 separate electric meters.
 id: 1
-
+tags: listing
 ---
