@@ -5,6 +5,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy('./src/new.js');
     eleventyConfig.addPassthroughCopy('./src/images');
     eleventyConfig.addPassthroughCopy('./src/images/homes');
+    eleventyConfig.addPassthroughCopy('./src/images/uploads');
     eleventyConfig.addPassthroughCopy('./src/inventory');
     eleventyConfig.addPassthroughCopy('./src/admin/config.yml');
     eleventyConfig.addPassthroughCopy('./src/admin/index.html');
