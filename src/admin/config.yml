@@ -8,7 +8,7 @@ backend:
    label: "Inventory"
    folder: "src/inventory"
    create: true
-   slug: "{{year}}-{{day}}-{{slug}}"
+   slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
    fields: 
      - { label: "Purpose", name: "purpose", widget: "string" }
      - { label: "Covered Area", name: "coveredArea", widget: "number" }
