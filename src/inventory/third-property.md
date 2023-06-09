@@ -1,5 +1,5 @@
 ---
-image: /images/homes/pexels-pixabay-273244.jpg
+image: /images/pexels-pixabay-273244.jpg
 coveredArea: 500
 unit: sq.yd
 location: Khyaban e Mujahid 32nd Street
