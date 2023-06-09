@@ -1,6 +1,6 @@
 backend:
  name: git-gateway
- branch: main 
+ branch: master 
  media_folder: "_site/images/homes"
  public_folder: "/images/homes"
  collections:
