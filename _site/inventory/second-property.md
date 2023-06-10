@@ -11,5 +11,5 @@ image: /images/homes/1000-1.jpg
 imageAlt: property-listing
 description: Well maintained Bungalow with Kids playroom, RO plant installed, 2 separate electric meters.
 id: 2
-tags: listing
+tags: ["listing"]
 ---
