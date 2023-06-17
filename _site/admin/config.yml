@@ -1,7 +1,8 @@
 backend:
-  name: git-gateway
-  branch: master
+    name: git-gateway
+    branch: master
 
+  
 media_folder: "src/images/homes"
 public_folder: "/images/homes"
 
@@ -18,6 +19,6 @@ collections:
       - { label: "Bedrooms", name: "bedrooms", widget: "number" }
       - { label: "Tags", name: "tags", widget: "list", default: ["listing"] }
       - { label: "Baths", name: "baths", widget: "number" }
-      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Image", name: "image", widget: "image"  }
       - { label: "Location", name: "location", widget: "string" }
       - { label: "Description", name: "description", widget: "markdown" }
