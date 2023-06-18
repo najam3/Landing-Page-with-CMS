@@ -1,8 +1,8 @@
 ---
 coveredArea: 500
 location: Khyaban e Mujahid 32nd Street
-bedrooms: 5
-baths: 7
+bedrooms: 8
+baths: 10
 purpose: For Sale
 price: PKR 9.75 Crore
 image: /images/homes/2.jpg
