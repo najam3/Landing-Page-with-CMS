@@ -21,4 +21,4 @@ collections:
       - { label: "Baths", name: "baths", widget: "number" }
       - { label: "Image", name: "image", widget: "image"  }
       - { label: "Location", name: "location", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Description", name: "description", widget: "string" }
