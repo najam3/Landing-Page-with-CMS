@@ -1,5 +1,5 @@
 ---
-coveredArea: 1000
+area: 1000
 location: Khyaban e Khalid Phase 8
 bedrooms: 5
 baths: 7

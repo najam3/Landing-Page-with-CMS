@@ -7,13 +7,13 @@ media_folder: "src/images/homes"
 public_folder: "/images/homes"
 
 collections:
-  - name: "boo"
+  - name: "inventory"
     label: "Inventory"
     folder: "src/inventory"
     create: true
     fields: 
       - { label: "Purpose", name: "purpose", widget: "string" }
-      - { label: "Covered Area", name: "coveredArea", widget: "number" }
+      - { label: "Covered Area", name: "area", widget: "number" }
       - { label: "Price", name: "price", widget: "string" }
       - { label: "Bedrooms", name: "bedrooms", widget: "number" }
       - { label: "Tags", name: "tags", widget: "list", default: ["listing"] }

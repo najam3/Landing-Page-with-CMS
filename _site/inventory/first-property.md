@@ -1,5 +1,5 @@
 ---
-coveredArea: 500
+area: 500
 location: Khyaban e Mujahid 32nd Street
 bedrooms: 8
 baths: 10
