@@ -5,12 +5,13 @@ backend:
   
 media_folder: "src/images/homes"
 public_folder: "/images/homes"
+
 collections:
-  - name: inventory
-    label: Inventory
-    folder: src/inventory
+  - name: "my-listing"
+    label: "Inventory"
+    folder: "src/inventory"
     create: true
-    slug: {{year}}-{{month}}-{{day}}-{{slug}}
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: 
       - { label: "Purpose", name: "purpose", widget: "string" }
       - { label: "Area", name: "area", widget: "number" }
