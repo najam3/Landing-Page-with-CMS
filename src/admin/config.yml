@@ -7,11 +7,10 @@ media_folder: "src/images/homes"
 public_folder: "/images/homes"
 
 collections:
-  - name: "inventory"
+  - name: "boo"
     label: "Inventory"
     folder: "src/inventory"
     create: true
-    identifier: true
     fields: 
       - { label: "Purpose", name: "purpose", widget: "string" }
       - { label: "Covered Area", name: "coveredArea", widget: "number" }
