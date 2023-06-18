@@ -72,6 +72,10 @@ nav ul li a {
     padding: 0.5em 0em;
 }
 
+nav ol li {
+    list-style-type: none;
+}
+
 nav ul li {
     list-style: none;
 }
@@ -301,12 +305,8 @@ article div {
 }
 
 
-
-
-
-
- ol li {
-    border-left:4px solid #6b0000;
+ol li a{
+    text-decoration: none;
 }
 
 
