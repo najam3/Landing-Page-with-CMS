@@ -6,20 +6,18 @@ backend:
 media_folder: "src/images/homes"
 public_folder: "/images/homes"
 
-
 collections:
   - name:  "inventory"
     label:  "Inventory"
     folder:  "src/inventory"
     create:  true
-    slug:  "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: 
-      - { name: "purpose", label: "Purpose",  widget: "string", identifier: true }
-      - { name: "coveredArea", label: "Covered Area", widget: "number" }
-      - { name: "price", label: "Price", widget: "string" }
-      - { name: "bedrooms", label: "Bedrooms", widget: "number" }
-      - { name: "tags", label: "Tags", widget: "list", default: ["listing"] }
-      - { name: "baths", label: "Baths", widget: "number" }
-      - { name: "image", label: "Image", widget: "image"  }
-      - { name: "location", label: "Location", widget: "string" }
-      - { name: "description", label: "Description", widget: "markdown" }
+      - { label: "Purpose", name: "purpose", widget: "string" }
+      - { label: "Covered Area", name: "coveredArea", widget: "number" }
+      - { label: "Price", name: "price", widget: "string" }
+      - { label: "Bedrooms", name: "bedrooms", widget: "number" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["listing"] }
+      - { label: "Baths", name: "baths", widget: "number" }
+      - { label: "Image", name: "image", widget: "image"  }
+      - { label: "Location", name: "location", widget: "string" }
+      - { label: "Description", name: "description", widget: "markdown" }
