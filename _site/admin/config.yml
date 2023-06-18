@@ -8,6 +8,7 @@ public_folder: "/images/homes"
 
 collections:
   - name: "inventory"
+    title: "listings"
     label: "Inventory"
     folder: "src/inventory"
     create: true
