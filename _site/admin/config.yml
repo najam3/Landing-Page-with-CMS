@@ -5,16 +5,15 @@ backend:
   
 media_folder: "src/images/homes"
 public_folder: "/images/homes"
-
 collections:
-  - name: "inventory"
-    identifier_field: "inventory"
-    label: "Inventory"
-    folder: "src/inventory"
+  - name: inventory
+    label: Inventory
+    folder: src/inventory
     create: true
+    slug: {{year}}-{{month}}-{{day}}-{{slug}}
     fields: 
       - { label: "Purpose", name: "purpose", widget: "string" }
-      - { label: "Covered Area", name: "area", widget: "number" }
+      - { label: "Area", name: "area", widget: "number" }
       - { label: "Price", name: "price", widget: "string" }
       - { label: "Bedrooms", name: "bedrooms", widget: "number" }
       - { label: "Tags", name: "tags", widget: "list", default: ["listing"] }
