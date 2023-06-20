@@ -1,5 +1,6 @@
 const card =  document.querySelectorAll('.card')
 const button = document.querySelectorAll('.my-btn')
+const expolore = document.getElementById('explore');
 
 let x;
 button.forEach(btn => {
@@ -8,6 +9,5 @@ button.forEach(btn => {
         localStorage.setItem('uniqueId', x)
     })
 })
-
 
 

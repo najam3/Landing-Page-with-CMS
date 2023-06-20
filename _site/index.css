@@ -372,3 +372,10 @@ margin-top: 24em;
     width: 400px;
     height: auto;
 }
+
+
+.new-item button {
+    background-color: #0B486B;
+    color: white;
+    border-radius: 5px;
+}
