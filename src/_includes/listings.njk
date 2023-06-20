@@ -27,13 +27,15 @@
                     <div class="swiper-scrollbar"></div>
                     </div>
                        <div class="align-self-start swiper-content py-2 bg-light mt-5 px-2">
-                        <h1 class='text-success'>{{ item.data.title }}</h1>
+                        <h1 data-type={{ item.data.title }} class='text-success'>{{ item.data.title }}</h1>
+                        <h3 data-price={{ item.data.price }}>{{ item.data.price }}</h3>
+                        <h4 data-location={{ item.data.location }}>{{ item.data.location }}</h4>
                         <div class="d-flex gap-3 align-items-center">
                         <h2> <img src="../icons/bath-tub.png" width="25px"/> {{ item.data.baths }}</h2>
                         <h2> <img src="../icons/bed.png" width="25px"/> {{ item.data.bedrooms }}</h2>
-                        <h2><img src="../icons/area.png" width="25px"/> {{ item.data.area }}</h2>
+                        <h2 data-area={{ item.data.area }}><img src="../icons/area.png" width="25px"/> {{ item.data.area }}</h2>
                         </div>
-                      
+                        
                         <p>{{ item.data.description }}</p>
                        <button id='sendMessage' class='px-2 py-1 mb-2 border-0'>
                           I'm Interested
