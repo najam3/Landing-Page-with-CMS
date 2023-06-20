@@ -379,3 +379,9 @@ margin-top: 24em;
     color: white;
     border-radius: 5px;
 }
+
+.swiper-slide img {
+display: block;
+margin: 0 auto;
+aspect-ratio: 4/4;
+}
