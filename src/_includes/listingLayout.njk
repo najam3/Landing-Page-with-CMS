@@ -24,6 +24,21 @@
     {% include 'listings.njk' %}
     {% include 'footer.njk' %}
 <script>
+const sendMessage = document.getElementById('sendMessage');
+
+sendMessage.addEventListener('click', function() {
+      const message='Hello World!';
+      const num = "923000538700";
+      const url = `https://api.whatsapp.com/send?phone=${num}&text=${encodeURIComponent(message)}`;
+      window.open(url);
+})
+
+
+
+
+
+
+
   if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", function(user){
       if (!user) {
@@ -34,6 +49,12 @@
     });
   }
 // Swiper
+
+
+
+
+
+
 
 const swiper = new Swiper('.swiper', {
   // Optional parameters
