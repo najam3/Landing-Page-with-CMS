@@ -5,7 +5,7 @@ bedrooms: 5
 baths: 7
 title: For Sale
 price: PKR 10.75 Crore
-image: 
+images: 
     - /images/homes/1000-1.jpg
     - /images/homes/1000-1.jpg
     - /images/homes/1000-1.jpg
