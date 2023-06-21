@@ -387,7 +387,7 @@ aspect-ratio: 4/3;
 }
 
 
-@media (min-width:342px) and (max-width: 675px) {
+@media (min-width:342px) and (max-width: 775px) {
     .swiper {
         width: 100%;
     }
@@ -400,7 +400,7 @@ aspect-ratio: 4/3;
     }
 }
 
-@media (min-width:675px) {
+@media (min-width:968px) {
     .swiper {
         width: 50%;
     }
