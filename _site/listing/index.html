@@ -19,42 +19,46 @@
 <script src="https://use.fontawesome.com/016436a714.js"></script>
 </head>
 <body>
-      <div>
-  <nav class="navbar navbar-expand-lg navbar-light m-0 py-4 px-5 w-100 bg-light">
-                        <div class="container-fluid">
-                            <a class="navbar-brand" href="#">Navbar</a>
+      <div class=''>
+  <nav class="navbar custom-nav navbar-expand-lg navbar-light m-0 py-4 px-sm-0 px-md-0 px-3 px-lg-5 w-100">
+                        <div class="container">
+                            <a class="navbar-brand text-light" href="#">Navbar</a>
                             <button class="navbar-toggler bg-light   " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                             </button>
                             <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="/index">Home</a>
+                                <a class="nav-link text-light" aria-current="page" href="/index">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                <a class="nav-link" href="/listing">Listing</a>
+                                <a class="nav-link text-light" href="/listing">Listing</a>
                                 </li>
                         
                             </ul>
                             </div>
                         </div>
                   </nav>
-
-
-<nav aria-label="breadcrumb p-0">
-    <div class='container-fluid px-5'>
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="/index" class="text-dark">Home</a></li>
-    <li class="breadcrumb-item active" aria-current="page">listing</li>
-  </ol>
-
-    </div>
-</nav>
 </div>
  
           
 
    
+       
+ <div class='listing-banner'>
+ <div class='container-fluid'>
+   
+    <nav aria-label="breadcrumb p-0">
+    <div class='container-fluid px-5'>
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/index" class="text-light">Home</a></li>
+    <li class="breadcrumb-item active text-light" aria-current="page">listing</li>
+  </ol>
+    </div>
+</nav>
+ </div>
+ </div>
+
       
 
 
@@ -62,76 +66,14 @@
 
 
  
-    <div class="new-item px-5 pb-5">
-    <h2 class="py-3">Featured Listings</h2>
+    <div class="new-item px-sm-0 px-3 px-lg-5 pb-5">
+  <div class='container'>
+    <h2 class="pt-5">Featured Listings</h2>
      <div class="row">
-        <div class="col-lg-12 info d-flex flex-wrap align-items-center gap-5">
+        <div class="col-lg-12 info d-flex flex-wrap align-items-center pb-5 gap-5">
                       
                     <div class="w-100 d-flex align-items-center flex-wrap">
-                     <div class="swiper mx-0 py-5">
-                    <!-- Additional required wrapper -->
-                    <div class="swiper-wrapper">
-                        <!-- Slides -->
-                         
-                        <div class="swiper-slide">
-                          <img src=/images/homes/1000-1.jpg class="img-fluid w-100"/>
-                        </div>
-
-                         
-                        <div class="swiper-slide">
-                          <img src=/images/homes/1000-2.jpg class="img-fluid w-100"/>
-                        </div>
-
-                         
-                        <div class="swiper-slide">
-                          <img src=/images/homes/1000.jpg class="img-fluid w-100"/>
-                        </div>
-
-                         
-                        <div class="swiper-slide">
-                          <img src=/images/homes/2.jpg class="img-fluid w-100"/>
-                        </div>
-
-                         
-                    
-                    </div>                      
-                    <!-- If we need pagination -->
-                    <div class="swiper-pagination"></div>
-
-                    <!-- If we need navigation buttons -->
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
-
-                    <!-- If we need scrollbar -->
-                    <div class="swiper-scrollbar"></div>
-                    </div>
-                       <div class="align-self-start swiper-content py-2 bg-light mt-lg-5 px-3">
-                        <h1 data-type=For Sale class='text-success'>For Sale</h1>
-                        <h3 data-price=PKR 5 Crore>PKR 5 Crore</h3>
-                        <h4 data-location=Saba Commercial>Saba Commercial</h4>
-                        <div class="d-flex gap-3 align-items-center">
-                        <h2> <img src="../icons/bath-tub.png" width="25px"/> 6</h2>
-                        <h2> <img src="../icons/bed.png" width="25px"/> 6</h2>
-                        <h2 data-area=1000><img src="../icons/area.png" width="25px"/> 1000</h2>
-                        </div>   
-                        <p>House with 4 Bedrooms and 4 baths good location.</p>
-                       <button id='sendMessage' type='button' class='px-2 py-1 mb-2 border-0'>
-                          I'm Interested
-                       </button>
-                         <div class="align-self-start border rounded px-2 py-2">
-                         <p class='fw-light m-0 text-primary'>Share on Social Media</p>
-                         <div class='d-flex align-items-center gap-4 mt-2'>
-                          <i class='fa fa-whatsapp'></i>
-                          <i class='fa fa-facebook'></i>
-                         </div>
-                        </div>
-                        </div>
-                    </div>           
-                  </div>
-                   
-                          
-                    <div class="w-100 d-flex align-items-center flex-wrap">
-                     <div class="swiper mx-0 py-5">
+                     <div class="swiper mx-0 pb-5">
                     <!-- Additional required wrapper -->
                     <div class="swiper-wrapper">
                         <!-- Slides -->
@@ -168,9 +110,9 @@
                     <!-- If we need scrollbar -->
                     <div class="swiper-scrollbar"></div>
                     </div>
-                       <div class="align-self-start swiper-content py-2 bg-light mt-lg-5 px-3">
+                       <div data-index = 0 class="align-self-start swiper-content py-2 bg-light mt-lg-5 px-3">
                         <h1 data-type=For Rent class='text-success'>For Rent</h1>
-                        <h3 data-price=PKR 1M>PKR 1M</h3>
+                        <h3 data-price=PKR1M>PKR1M</h3>
                         <h4 data-location=Phase 7>Phase 7</h4>
                         <div class="d-flex gap-3 align-items-center">
                         <h2> <img src="../icons/bath-tub.png" width="25px"/> 5</h2>
@@ -178,7 +120,7 @@
                         <h2 data-area=500><img src="../icons/area.png" width="25px"/> 500</h2>
                         </div>   
                         <p>Good House!</p>
-                       <button id='sendMessage' type='button' class='px-2 py-1 mb-2 border-0'>
+                       <button id=PKR1M data-id=PKR1M type='button' class='sendMessage px-2 py-1 mb-2 border-0'>
                           I'm Interested
                        </button>
                          <div class="align-self-start border rounded px-2 py-2">
@@ -194,7 +136,7 @@
                    
                           
                     <div class="w-100 d-flex align-items-center flex-wrap">
-                     <div class="swiper mx-0 py-5">
+                     <div class="swiper mx-0 pb-5">
                     <!-- Additional required wrapper -->
                     <div class="swiper-wrapper">
                         <!-- Slides -->
@@ -226,7 +168,7 @@
                     <!-- If we need scrollbar -->
                     <div class="swiper-scrollbar"></div>
                     </div>
-                       <div class="align-self-start swiper-content py-2 bg-light mt-lg-5 px-3">
+                       <div data-index = 1 class="align-self-start swiper-content py-2 bg-light mt-lg-5 px-3">
                         <h1 data-type=For Sale  class='text-success'>For Sale </h1>
                         <h3 data-price=PKR 6 Crore>PKR 6 Crore</h3>
                         <h4 data-location=Phase 8>Phase 8</h4>
@@ -236,7 +178,7 @@
                         <h2 data-area=1000><img src="../icons/area.png" width="25px"/> 1000</h2>
                         </div>   
                         <p>Nice House!</p>
-                       <button id='sendMessage' type='button' class='px-2 py-1 mb-2 border-0'>
+                       <button id=PKR 6 Crore data-id=PKR 6 Crore type='button' class='sendMessage px-2 py-1 mb-2 border-0'>
                           I'm Interested
                        </button>
                          <div class="align-self-start border rounded px-2 py-2">
@@ -253,6 +195,7 @@
                                  
         </div>
     </div>
+  </div>
 </div>
     
     
@@ -290,20 +233,22 @@
         </div>
     </footer>
 <script>
-const sendMessage = document.getElementById('sendMessage');
-const area = document.querySelector('h2[data-area]').innerText;
-const price = document.querySelector('h3[data-price]').innerText
-const type = document.querySelector('h1[data-type]').innerText;
-const propertyLocation = document.querySelector('h4[data-location]').innerText;
+const sendMessage = document.querySelectorAll('.sendMessage');
 
-sendMessage.addEventListener('click', function() {
-      const message=`I'm interested in buying ${area} Sq.Yd house, of ${price} ${type} in ${propertyLocation}`;
+sendMessage.forEach(function(btn) {
+btn.addEventListener('click', function() {
+      let propertyLocation = btn.previousElementSibling.previousElementSibling.previousElementSibling.innerHTML;
+      let area = btn.previousElementSibling.previousElementSibling.lastElementChild.textContent;
+      let price = btn.previousElementSibling.previousElementSibling.previousElementSibling.previousElementSibling.innerHTML;
+      let type = btn.previousElementSibling.previousElementSibling.previousElementSibling.previousElementSibling.previousElementSibling.innerHTML;
+
       const num = "923000538700";
+      const message=`I'm interested in buying ${area} Sq.Yd house, of ${price} ${type} in ${propertyLocation}`;
       const url = `https://api.whatsapp.com/send?phone=${num}&text=${encodeURIComponent(message)}`;
       window.open(url);
 });
+})
 
-console.log(sendMessage)
   if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", function(user){
       if (!user) {

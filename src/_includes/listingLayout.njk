@@ -20,24 +20,27 @@
 </head>
 <body>
       {% include 'nav.njk' %}
+      {% include 'listingBanner.njk' %}
       {{ content | safe }} 
     {% include 'listings.njk' %}
     {% include 'footer.njk' %}
 <script>
-const sendMessage = document.getElementById('sendMessage');
-const area = document.querySelector('h2[data-area]').innerText;
-const price = document.querySelector('h3[data-price]').innerText
-const type = document.querySelector('h1[data-type]').innerText;
-const propertyLocation = document.querySelector('h4[data-location]').innerText;
+const sendMessage = document.querySelectorAll('.sendMessage');
 
-sendMessage.addEventListener('click', function() {
-      const message=`I'm interested in buying ${area} Sq.Yd house, of ${price} ${type} in ${propertyLocation}`;
+sendMessage.forEach(function(btn) {
+btn.addEventListener('click', function() {
+      let propertyLocation = btn.previousElementSibling.previousElementSibling.previousElementSibling.innerHTML;
+      let area = btn.previousElementSibling.previousElementSibling.lastElementChild.textContent;
+      let price = btn.previousElementSibling.previousElementSibling.previousElementSibling.previousElementSibling.innerHTML;
+      let type = btn.previousElementSibling.previousElementSibling.previousElementSibling.previousElementSibling.previousElementSibling.innerHTML;
+
       const num = "923000538700";
+      const message=`I'm interested in buying ${area} Sq.Yd house, of ${price} ${type} in ${propertyLocation}`;
       const url = `https://api.whatsapp.com/send?phone=${num}&text=${encodeURIComponent(message)}`;
       window.open(url);
 });
+})
 
-console.log(sendMessage)
   if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", function(user){
       if (!user) {
