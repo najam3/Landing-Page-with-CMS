@@ -49,7 +49,7 @@
  <div class='container-fluid'>
    
     <nav aria-label="breadcrumb p-0">
-    <div class='container-fluid px-5'>
+    <div class='container px-5'>
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="/index" class="text-light">Home</a></li>
     <li class="breadcrumb-item active text-light" aria-current="page">listing</li>
@@ -192,6 +192,69 @@
                     </div>           
                   </div>
                    
+                          
+                    <div class="w-100 d-flex align-items-center flex-wrap">
+                     <div class="swiper mx-0 pb-5">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                         
+                        <div class="swiper-slide">
+                          <img src=/images/homes/1000-1.jpg class="img-fluid w-100"/>
+                        </div>
+
+                         
+                        <div class="swiper-slide">
+                          <img src=/images/homes/2.jpg class="img-fluid w-100"/>
+                        </div>
+
+                         
+                        <div class="swiper-slide">
+                          <img src=/images/homes/3.jpg class="img-fluid w-100"/>
+                        </div>
+
+                         
+                        <div class="swiper-slide">
+                          <img src=/images/homes/5.jpg class="img-fluid w-100"/>
+                        </div>
+
+                         
+                    
+                    </div>                      
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
+                    </div>
+                       <div data-index = 2 class="align-self-start swiper-content py-2 bg-light mt-lg-5 px-3">
+                        <h1 data-type=New Listing class='text-success'>New Listing</h1>
+                        <h3 data-price=25 crore>25 crore</h3>
+                        <h4 data-location=Defence Phase 5>Defence Phase 5</h4>
+                        <div class="d-flex gap-3 align-items-center">
+                        <h2> <img src="../icons/bath-tub.png" width="25px"/> 5</h2>
+                        <h2> <img src="../icons/bed.png" width="25px"/> 5</h2>
+                        <h2 data-area=500><img src="../icons/area.png" width="25px"/> 500</h2>
+                        </div>   
+                        <p>Good House</p>
+                       <button id=25 crore data-id=25 crore type='button' class='sendMessage px-2 py-1 mb-2 border-0'>
+                          I'm Interested
+                       </button>
+                         <div class="align-self-start border rounded px-2 py-2">
+                         <p class='fw-light m-0 text-primary'>Share on Social Media</p>
+                         <div class='d-flex align-items-center gap-4 mt-2'>
+                          <i class='fa fa-whatsapp'></i>
+                          <i class='fa fa-facebook'></i>
+                         </div>
+                        </div>
+                        </div>
+                    </div>           
+                  </div>
+                   
                                  
         </div>
     </div>
@@ -275,10 +338,6 @@ const swiper = new Swiper('.swiper', {
     prevEl: '.swiper-button-prev',
   },
 
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
 });
 </script>
 
