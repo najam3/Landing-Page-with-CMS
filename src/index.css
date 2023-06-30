@@ -373,12 +373,12 @@ aspect-ratio: 4/3;
 
 
 .listing-banner {
-    background: url(./images/R.jpeg);
+    background: url(./images/cover-image-55.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
 }
 
 @media (min-width:320px) and (max-width: 675px) {
